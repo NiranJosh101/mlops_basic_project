@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/USER/Desktop/001_MLops_project/001_Datascience_project/mlruns/0/74e61527da614d9bbbecadcc114c47eb/artifacts
+end_time: 1752106918323
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 74e61527da614d9bbbecadcc114c47eb
+run_name: clean-vole-57
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752106918096
+status: 4
+tags: []
+user_id: USER

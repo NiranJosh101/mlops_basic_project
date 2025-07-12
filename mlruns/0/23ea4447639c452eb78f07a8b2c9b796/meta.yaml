@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/USER/Desktop/001_MLops_project/001_Datascience_project/mlruns/0/23ea4447639c452eb78f07a8b2c9b796/artifacts
+end_time: 1752109351413
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 23ea4447639c452eb78f07a8b2c9b796
+run_name: unequaled-moose-91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752109340712
+status: 3
+tags: []
+user_id: USER

@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/USER/Desktop/001_MLops_project/001_Datascience_project/mlruns/0/3d029a6e5156420491e6c3f37ebfabc7/artifacts
+end_time: 1752108459686
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3d029a6e5156420491e6c3f37ebfabc7
+run_name: funny-ape-533
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752108428381
+status: 3
+tags: []
+user_id: USER

@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/USER/Desktop/001_MLops_project/001_Datascience_project/mlruns/0/d3bc73e8fbd04eb9ac5d9f0c711cbd73/artifacts
+end_time: 1752109531609
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d3bc73e8fbd04eb9ac5d9f0c711cbd73
+run_name: nosy-loon-50
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752109523157
+status: 3
+tags: []
+user_id: USER

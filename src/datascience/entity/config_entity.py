@@ -35,3 +35,15 @@ class ModelTrainingConfig:
     alpha: float # hyperparameter for elastic net ML algo
     l1_ratio: float # hyperparameter for elastic net ML algo
     target_column: str
+
+
+@dataclass
+class ModelEvaluationConfig:
+    root_dir: Path
+    test_data_path: Path
+    model_path: Path
+    all_params: dict
+    metric_file_name: Path
+    target_column: str
+    mlflow_uri: str
+    mlflow_uri_local: str

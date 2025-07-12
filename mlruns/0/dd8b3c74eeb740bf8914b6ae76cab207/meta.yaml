@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/USER/Desktop/001_MLops_project/001_Datascience_project/mlruns/0/dd8b3c74eeb740bf8914b6ae76cab207/artifacts
+end_time: 1752109798268
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dd8b3c74eeb740bf8914b6ae76cab207
+run_name: incongruous-fowl-666
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752109788540
+status: 3
+tags: []
+user_id: USER
