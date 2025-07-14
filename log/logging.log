@@ -1110,3 +1110,65 @@ x==========x]
 x==========x]
 [2025-07-11 18:59:04,160: INFO: 192.168.43.1 - - [11/Jul/2025 18:59:04] "GET /train HTTP/1.1" 200 -]
 [2025-07-11 18:59:36,971: INFO: 192.168.43.1 - - [11/Jul/2025 18:59:36] "POST /predict HTTP/1.1" 200 -]
+[2025-07-13 16:48:37,204: INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.43.1:8080]
+[2025-07-13 16:48:37,206: INFO: [33mPress CTRL+C to quit[0m]
+[2025-07-13 16:48:48,663: INFO: 127.0.0.1 - - [13/Jul/2025 16:48:48] "GET / HTTP/1.1" 200 -]
+[2025-07-13 16:48:49,121: INFO: 127.0.0.1 - - [13/Jul/2025 16:48:49] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-07-13 16:48:49,329: INFO: 127.0.0.1 - - [13/Jul/2025 16:48:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-07-13 16:49:21,777: INFO: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-13 16:49:21,823: INFO: yaml file: config\config.yaml loaded successfully]
+[2025-07-13 16:49:21,860: INFO: yaml file: params.yaml loaded successfully]
+[2025-07-13 16:49:21,894: INFO: yaml file: schema.yaml loaded successfully]
+[2025-07-13 16:49:21,897: INFO: create directory at: artifacts]
+[2025-07-13 16:49:21,906: INFO: create directory at: artifacts/data_ingestion]
+[2025-07-13 16:49:21,911: INFO: File already exists of size: 23329 bytes]
+[2025-07-13 16:49:21,957: INFO: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-13 16:49:21,959: INFO: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-07-13 16:49:21,988: INFO: yaml file: config\config.yaml loaded successfully]
+[2025-07-13 16:49:21,996: INFO: yaml file: params.yaml loaded successfully]
+[2025-07-13 16:49:22,018: INFO: yaml file: schema.yaml loaded successfully]
+[2025-07-13 16:49:22,020: INFO: create directory at: artifacts]
+[2025-07-13 16:49:22,023: INFO: create directory at: artifacts/data_validation]
+[2025-07-13 16:49:22,097: INFO: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-07-13 16:49:22,102: INFO: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-07-13 16:49:22,152: INFO: yaml file: config\config.yaml loaded successfully]
+[2025-07-13 16:49:22,156: INFO: yaml file: params.yaml loaded successfully]
+[2025-07-13 16:49:22,176: INFO: yaml file: schema.yaml loaded successfully]
+[2025-07-13 16:49:22,179: INFO: create directory at: artifacts]
+[2025-07-13 16:49:22,181: INFO: create directory at: artifacts/data_transformation]
+[2025-07-13 16:49:22,287: INFO: Split data into training and test sets]
+[2025-07-13 16:49:22,291: INFO: (1199, 12)]
+[2025-07-13 16:49:22,293: INFO: (400, 12)]
+[2025-07-13 16:49:22,295: INFO: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-07-13 16:49:22,299: INFO: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-07-13 16:49:22,325: INFO: yaml file: config\config.yaml loaded successfully]
+[2025-07-13 16:49:22,328: INFO: yaml file: params.yaml loaded successfully]
+[2025-07-13 16:49:22,342: INFO: yaml file: schema.yaml loaded successfully]
+[2025-07-13 16:49:22,345: INFO: create directory at: artifacts]
+[2025-07-13 16:49:22,353: INFO: create directory at: artifacts/model_trainer]
+[2025-07-13 16:49:22,492: INFO: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2025-07-13 16:49:22,493: INFO: >>>>>> stage Model evaluation stage started <<<<<<]
+[2025-07-13 16:49:22,509: INFO: yaml file: config\config.yaml loaded successfully]
+[2025-07-13 16:49:22,515: INFO: yaml file: params.yaml loaded successfully]
+[2025-07-13 16:49:22,526: INFO: yaml file: schema.yaml loaded successfully]
+[2025-07-13 16:49:22,532: INFO: create directory at: artifacts]
+[2025-07-13 16:49:22,539: INFO: create directory at: artifacts/model_evaluation]
+[2025-07-13 16:49:26,864: INFO: json file saved at: artifacts\model_evaluation\metric.json]
+[2025-07-13 16:49:31,739: INFO: >>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2025-07-13 16:49:32,303: INFO: 127.0.0.1 - - [13/Jul/2025 16:49:32] "GET /train HTTP/1.1" 200 -]
+[2025-07-13 16:49:41,716: INFO: 127.0.0.1 - - [13/Jul/2025 16:49:41] "GET / HTTP/1.1" 200 -]
+[2025-07-13 16:49:41,864: INFO: 127.0.0.1 - - [13/Jul/2025 16:49:41] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-07-13 16:50:12,533: INFO: 127.0.0.1 - - [13/Jul/2025 16:50:12] "POST /predict HTTP/1.1" 200 -]
