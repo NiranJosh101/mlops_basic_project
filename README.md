@@ -82,8 +82,11 @@ python main.py
 python app.py
 ```
 
-Then open your browser or API tool and POST to `http://localhost:5000/predict`
+* Then open your browser or API tool and:
 
+* Visit http://localhost:5000/train to trigger the full model training pipeline.
+
+* After that, you can POST to http://localhost:5000/predict to get predictions.
 ---
 
 ## 🧠 What I Learned
